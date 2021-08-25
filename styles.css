@@ -1,17 +1,40 @@
 header{
     font-family: Raleway, sans-serif;
+    color: #0065FC;
+    background-color: #F2F2F2 ;
+ 
 }
-nav{
 
-    display: flex;
+
+    nav{
+
+        display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-nav ul{
-display: flex;
-list-style: none;
-}
-nav li{
-margin: 0 10px 0 20px;
+        align-items: center;
+       ;
+    
+    
+    }
+
+
+    a{ font-size: 40px;
+        text-decoration: blink;
+margin: 100px;
+
+       
+    }
+
+    h1{
+        display: flex;
+        justify-content: flex-start;
+      
+        }
+
+
+
+
+
+
+
 
 }
