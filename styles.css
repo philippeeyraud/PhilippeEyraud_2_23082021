@@ -2,39 +2,85 @@ header{
     font-family: Raleway, sans-serif;
     color: #0065FC;
     background-color: #F2F2F2 ;
- 
+    padding: 100px;
+
 }
 
-
-    nav{
-
-        display: flex;
+nav{
+  
+   
+    display: flex;
     justify-content: space-between;
-        align-items: center;
-       ;
-    
-    
+    align-items: center;
+    margin: auto;
+ 
+}
+    .info{ width: 40px;
+        height: 40px;
+
     }
 
 
-    a{ font-size: 40px;
-        text-decoration: blink;
-margin: 100px;
+        .Hébergement{
 
-       
-    }
+            float: left;
+           font-size: 30px;
+           text-decoration: none;
+          
+        }
+
+        .Activités{
+
+            float: right;
+            font-size: 30px;
+            text-decoration: none;
+        }
+    
+    
+   
 
     h1{
         display: flex;
-        justify-content: flex-start;
+       
       
         }
+    .logo{
+        
+    
+        width: 200
+        px;
+        height: 80px; 
+        
+
+    }
+    .map{
+        width: 40px;
+        height: 40px;
+
+    }
+    .search{
+        width: 40px;
+        height: 40px;
+    
+        }
+
+        
+
+    .inscrire{
+        width: 200px;;
+        color: #0065FC;
+        font-size: 30px;
+        margin-block-end: 30px;
+        margin-left: 1500px;
+        
+    }
+
+    .populaires{
+        width: 40px;
+        height: 40px;  
+
+    }
 
 
 
 
-
-
-
-
-}
