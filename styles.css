@@ -1,86 +1,120 @@
-header{
-    font-family: Raleway, sans-serif;
-    color: #0065FC;
-    background-color: #F2F2F2 ;
-    padding: 100px;
-
-}
-
-nav{
-  
-   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
- 
-}
-    .info{ width: 40px;
-        height: 40px;
-
-    }
-
-
-        .Hébergement{
-
-            float: left;
-           font-size: 30px;
-           text-decoration: none;
-          
-        }
-
-        .Activités{
-
-            float: right;
-            font-size: 30px;
-            text-decoration: none;
-        }
-    
-    
-   
-
-    h1{
-        display: flex;
+body{   font-family: Raleway, sans-serif;
+        color: #0065FC;
        
-      
-        }
-    .logo{
-        
-    
-        width: 200
-        px;
-        height: 80px; 
-        
-
+    }  
+        /*header*/
+header  { display: flex;
+        justify-content:space-between;
+         align-items: center;
+        flex-wrap: wrap;margin-bottom: 30px;
     }
-    .map{
-        width: 40px;
-        height: 40px;
-
+       
+    .logo   {height: 45px;margin-bottom: 20px;
+    }
+    .inscrire{  
+            height: 40px;
+            color: #0065FC;
+            margin-bottom: 20px;
+            background-color: white;
+            font-weight: bold; 
+            border: white;
+    }
+nav    {display: flex;
+         align-items: center; margin-left: 10px;
+    }   
+    .Hébergement{
+            font-size: 15px;
+            text-decoration: none;
+            color: #0065FC;
+            ;padding-right: 30px;margin-right: 40px;
+    }
+    a.Activités{justify-content:space-between;}
+    .Activités{font-size: 15px;
+            text-decoration: none;padding-left: 30px;
+            margin-left: 40px;
+    }
+/*partie main*/     
+    .title {font-size: 16px;
+            color: black;
+            font-weight: bold;   
+    }
+    .title1{font-size: 16px;
+     }
+    
+    .tabindex {
+            width: 270px;
+            font-family: Raleway, sans-serif; 
+            margin-top: 20px;
+            font-weight: bold;
+            border-right-color:  #F2F2F2;
+            border-left-color:  #F2F2F2;
+            border-bottom: #F2F2F2;
+            border-top: #F2F2F2;
+            padding-left: 5px;
+           
+    }
+    .map{color: black;
+            background-color:  #F2F2F2;
+            font-weight: bold;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+    
     }
     .search{
-        width: 40px;
-        height: 40px;
+                color:  #0065FC;
+                font-weight:bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 30px; 
+    width: 32px;
     
+    border-color: #F2F2F2 ;
+    }  
+          
+       
+ /*filtres*/ 
+    .title2 {font-weight: bold;
+ 
+    }
+
+   
+        .select{ font-weight: bold; display: flex;flex-wrap: wrap;align-items: center;
+    }
+    
+   .select .Economique{ text-decoration: none;margin-right:  100px;
+        border: 1px solid rgb(194, 203, 206);border-left-style: 30px;
+    border-radius: 10px;
+    }
+    .select    .Familial{ text-decoration: none; margin-right:20px;
+        border: 1px solid rgb(194, 203, 206);border-radius: 10px;
+    }
+     .select  .Romantique  { text-decoration: none;margin-right: 220px;
+        border: 1px solid rgb(194, 203, 206);border-radius: 10px;
+    } 
+    .select   .Animaux{ text-decoration: none; margin-right:  0px;
+        border: 1px solid rgb(194, 203, 206);border-radius: 10px;
+    } 
+    
+    
+    .select .svg-inline--fa{font-size: 20px;color: #0065FC;
+            background-color: rgb(170, 179, 252);
+            padding-left:5px;
+            padding-bottom: 5px;
+            padding-top: 5px;
+            padding-right: 5px;
+            border-radius: 200px;
         }
 
-        
+        section{margin-top: 20px;
+        }
 
-    .inscrire{
-        width: 200px;;
-        color: #0065FC;
-        font-size: 30px;
-        margin-block-end: 30px;
-        margin-left: 1500px;
-        
-    }
-
-    .populaires{
-        width: 40px;
-        height: 40px;  
-
-    }
-
-
+/*liste les plus populaires*/
+        .svg-inline--fa.fa-chart-line{margin-left: 100px;}
+        p{color:black;font-weight:bolder;font-size: 25px;
+        }
+      
+       
 
 
