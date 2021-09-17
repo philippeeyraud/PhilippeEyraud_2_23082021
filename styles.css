@@ -18,39 +18,43 @@ header  { display: flex;
             background-color: white;
             font-weight: bold; 
             border: white;
+            margin-right: 25px;
     }
-nav    {display: flex;
-         align-items: center; margin-left: 10px;
-    }   
+    nav.ha   {display: flex;
+        align-items: center; margin-left: 20px;
+   }   
     .Hébergement{
             font-size: 15px;
             text-decoration: none;
             color: #0065FC;
-            ;padding-right: 30px;margin-right: 40px;
+            padding-right: 30px;
+            margin-right: 10px;
     }
     a.Activités{justify-content:space-between;}
     .Activités{font-size: 15px;
-            text-decoration: none;padding-left: 30px;
+            text-decoration: none;
+            padding-left: 40px;
             margin-left: 40px;
     }
 /*partie main*/     
-    .title {font-size: 16px;
+    .title {font-size: 15px;
             color: black;
             font-weight: bold;   
     }
-    .title1{font-size: 16px;
+    .title1{font-size: 15px;
+            color: black;
      }
     
     .tabindex {
-            width: 270px;
+            width: 250px;
             font-family: Raleway, sans-serif; 
-            margin-top: 20px;
+            margin-top: 15px;
             font-weight: bold;
             border-right-color:  #F2F2F2;
             border-left-color:  #F2F2F2;
             border-bottom: #F2F2F2;
             border-top: #F2F2F2;
-            padding-left: 5px;
+            padding-left: ;
            
     }
     .map{color: black;
@@ -61,14 +65,14 @@ nav    {display: flex;
     
     }
     .search{
-                color:  #0065FC;
-                font-weight:bold;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    height: 30px; 
-    width: 32px;
+        color:  #0065FC;
+        font-weight:bold;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height: 30px; 
+        width: 30px;
     
     border-color: #F2F2F2 ;
     }  
@@ -80,25 +84,42 @@ nav    {display: flex;
     }
 
    
-        .select{ font-weight: bold; display: flex;flex-wrap: wrap;align-items: center;
+.select{ font-weight: bold; 
+        display: flex;flex-wrap:
+         wrap;align-items: center;
     }
     
-   .select .Economique{ text-decoration: none;margin-right:  100px;
-        border: 1px solid rgb(194, 203, 206);border-left-style: 30px;
-    border-radius: 10px;
+   .select .Economique{ 
+        text-decoration: none;
+        margin-right:  100px;
+        border: 1px solid rgb(194, 203, 206);
+        border-left-style: 30px;
+        border-radius: 10px;
     }
-    .select    .Familial{ text-decoration: none; margin-right:20px;
-        border: 1px solid rgb(194, 203, 206);border-radius: 10px;
+    .select    .Familial{
+            
+        text-decoration: none; 
+        margin-right:35px;
+        border: 1px solid rgb(194, 203, 206);
+        border-radius: 10px;
     }
-     .select  .Romantique  { text-decoration: none;margin-right: 220px;
-        border: 1px solid rgb(194, 203, 206);border-radius: 10px;
+     .select  .Romantique  {
+        text-decoration: none;
+        margin-right: 220px;
+        border: 1px solid rgb(194, 203, 206);
+        border-radius: 10px;
     } 
-    .select   .Animaux{ text-decoration: none; margin-right:  0px;
-        border: 1px solid rgb(194, 203, 206);border-radius: 10px;
+    .select   .Animaux{ 
+        text-decoration: none; 
+        margin-right:  0px;
+        border: 1px solid rgb(194, 203, 206);
+        border-radius: 10px;
     } 
     
     
-    .select .svg-inline--fa{font-size: 20px;color: #0065FC;
+    .select .svg-inline--fa{
+            font-size: 20px;
+            color: #0065FC;
             background-color: rgb(170, 179, 252);
             padding-left:5px;
             padding-bottom: 5px;
@@ -107,14 +128,156 @@ nav    {display: flex;
             border-radius: 200px;
         }
 
-        section{margin-top: 20px;
+section {margin-top: 20px;
         }
 
-/*liste les plus populaires*/
-        .svg-inline--fa.fa-chart-line{margin-left: 100px;}
-        p{color:black;font-weight:bolder;font-size: 25px;
+/*----les plus populaires*/
+        .svg-inline--fa.fa-chart-line{margin-left: 90px;}
+        .pop {color:black;
+                font-weight: bold;
+                font-size: 20px;
         }
-      
+ 
+nav     {display: flex;}
+        .hotelmatin{ display: flex;
+                align-items: flex-start;}
+        .chambre{ display: flex;
+                align-items: flex-start;}
+        .blanc{ display: flex;
+                align-items: flex-start;}
+
+        .hpop1{   width:120px;
+                height:110px;
+                margin-top: ;
+                margin-bottom:10px;  
+                margin-right: px;
+        }
+
+        .apop2{  
+                width: 120px;
+                height: 100px;
+                margin-bottom: 10PX; 
+
+
+        }
+        .hpop3{  
+                width: 120px;
+                height:100px;
+                 margin-top:;
+                 margin-bottom:10px ;
+                 margin-right: px;
+        }
+        
+        li{list-style-type: none;}
        
 
+ /*hébergement--------------------------*/
+ 
+        .heb{font-weight:bolder;
+                color: black;
+                font-size: 25px;
+}
 
+        .banner{width: 100%;
+                height: 120px;
+                object-fit: cover;
+                margin: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;}
+        
+                .Act{font-weight:bolder;
+                        color: black;
+                        font-size: 25px;
+        }
+        .Afficher{
+                color: black;
+                text-decoration: none;
+                font-weight:bolder}
+     /*activités à Marseille*/          
+        .vieuxport{
+                
+                width: 360PX;
+                height:120px;
+                object-fit: cover;
+                margin: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+               
+         }
+        .Fort{
+                width: 360PX;
+                height:120px;
+                object-fit: cover;
+                margin: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+        }
+        .frioul{
+                width: 360PX;
+                height:120px;
+                object-fit: cover;
+                margin: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+        }
+        .parc{
+
+                width: 360PX;
+                height:120px;
+                object-fit: cover;
+                margin: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+        }
+        .garde{
+
+
+                width: 360PX;
+                height:120px;
+                object-fit: cover;
+                margin: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+        }
+        .parc{
+
+                width: 360PX;
+                height:120px;
+                object-fit: cover;
+                margin: 0px;
+                display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+        }
+        .VP{color: black;text-decoration: none;font-weight:bolder}
+/*--------------Footer--------*/
+
+
+
+
+        
+
+
+ 
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+        
+      
