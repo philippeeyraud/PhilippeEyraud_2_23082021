@@ -33,7 +33,7 @@
          a.Activités{justify-content:space-between;}
          .Activités{font-size: 15px;
             text-decoration: none;
-            padding-left: 40px;
+            padding-left:  40px;
             margin-left: 40px;
         }
 /*partie main*/     
@@ -46,35 +46,36 @@
          }
     
         .tabindex {
-            width: 250px;
+            width: 285px;
             font-family: Raleway, sans-serif; 
             margin-top: 15px;
             font-weight: bold;
-            border-right-color:  #F2F2F2;
-            border-left-color:  #F2F2F2;
-            border-bottom: #F2F2F2;
-            border-top: #F2F2F2;
-            padding-left: 0px;
-           
         }
         .map{color: black;
             background-color:  #F2F2F2;
             font-weight: bold;
             border-top-left-radius: 10px;
             border-bottom-left-radius: 10px;
+           
     
         }
         .search{
-        color:  #0065FC;
+        color:  white;
+        font-weight: bold;
+        background-color:#0065FC ;
+
         font-weight:bold;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 10px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        height: 30px; 
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        height: 25px; 
         width: 30px;
+        border-inline-color: white;
+        border-bottom:  white;
+        border-top:white; 
+        border-right: white;
     
-         border-color: #F2F2F2 ;
         }  
           
        
@@ -84,7 +85,7 @@
         }
 
    
-.select{ font-weight: bold; 
+        .select{ font-weight: bold; 
         display: flex;flex-wrap:
          wrap;align-items: center;
         }
@@ -128,7 +129,7 @@
             border-radius: 200px;
         }
 
-section {margin-top: 15px;
+        section {margin-top: 15px;
         }
       
 /*----les plus populaires*/
@@ -140,13 +141,18 @@ section {margin-top: 15px;
         }
  
 nav     {display: flex;}
-        .hotelmatin{ display: flex;
-                align-items: flex-start;}
-        .chambre{ display: flex;
-                align-items: flex-start;}
-        .blanc{ display: flex;
-                align-items: flex-start;}
-
+       
+        .popu{  display: flex; }
+        .bo{ font-weight: bold;color: black;
+        }
+        .it{color: black;}
+        .star{margin-top: 30px;
+        }
+        .stara{margin-top: 10px;
+        }
+      
+        .starb{margin-top: 20px;
+        }
         .hpop1{   width:120px;
                 height:110px;
                 margin-top: 0px;
