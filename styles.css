@@ -1,432 +1,717 @@
-        body{   font-family: Raleway, sans-serif;
+body    {   
+        font-family: Raleway, sans-serif;
         color: #0065FC;
-       
-         }  
+        margin: 0px;
+}  
  /*header*/
-        header  { display: flex;
+ header { display: flex;
         justify-content:space-between;
-         align-items: center;
-        flex-wrap: wrap;margin-bottom: 30px;
-        }
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
        
-        .logo   {height: 40px;margin-bottom: 5px;
+      
+        
         }
-        .inscrire{  
-            height: 40px;
-            color: #0065FC;
-            margin-bottom: px;
-            background-color: white;
-            font-weight: bold; 
-            border: white;
-            padding-right: 0px;
-            margin-right: 65px;
+nav    
+{display: flex;
+       
+}
+
+.logo   {height: 40px;
+        }
+.inscrire
+        {  
+        height: 40px;
+        color:#0065FC ;
+        background-color: white;
+        font-weight: bold; 
+        border: white;
+        margin-left: 10px;
+        margin-right:20px;
         }
         
-        .Hébergement{
-            font-size: 15px;
-            text-decoration: none;
-            color: #0065FC;
-            padding-right:30px;
-            margin-right: 20px;
-            margin-top: 20px;
+.hebergement{
+        font-size: 15px;
+        text-decoration:#0065FC;
+        color: #0065FC;
+        padding-right:30px;
+        margin-right: 105px;
+        margin-top: 20px;
+        margin-left: 10px;
 
-        }
        
-        .Activités{
-                 font-size: 15px;
-            text-decoration: none;
-            padding-left:0px;
-            margin-right: 100px;
-            margin-top: 20px;
+     }
+     
+.activites{
+        font-size: 15px;
+        text-decoration: none;
+        padding-left:0px;
+        margin-right: 40px;
+        margin-top:20px
         }
+
 /*partie main*/     
-        .title {font-size: 15px;
-            color: black;
-            font-weight: bold;
+h1      {font-size: 23px;
+        color: black;
+        font-weight: bold;
+        padding-left: 10px;
          }
-        .title1{font-size: 15px;
-            color: black;
-         }
-    
-        .tabindex {
-            width: 270px;
-            font-family: Raleway, sans-serif; 
-            margin-top: 15px;
-            font-weight: bold;
+h2      {font-size: 16px;
+        color: black;
+        padding-left: 10px}    
+
+form    {display: flex;
+        align-items: flex-end;
         }
-        .map{color: black;
-            background-color:  #F2F2F2;
-            font-weight: bold;
-            border-top-left-radius: 10px;
-            border-bottom-left-radius: 10px;
-           
-    
-        }
-        .search{
-        color:  white;
+.search {color:  white;
         font-weight: bold;
         background-color:#0065FC ;
-
-        font-weight:bold;
-        border-top-right-radius: 8px;
-        border-bottom-right-radius: 8px;
-        border-top-left-radius: 8px;
-        border-bottom-left-radius: 8px;
-        height: 25px; 
-        width: 30px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        height:40px; 
+        width: 40px;
         border-inline-color: white;
         border-bottom:  white;
         border-top:white; 
         border-right: white;
-    
-        }  
-          
-       
- /*filtres*/ 
-        .title2 {font-weight: bold;
- 
         }
 
-   
-        .select{ font-weight: bold; 
-        display: flex;flex-wrap:
-         wrap;align-items: center;
-        }
-    
-   .select .Economique{ 
-        text-decoration: none;
-        margin-right: 100px;
-        border: 1px solid rgb(194, 203, 206);
-        border-left-style: 30px;
-        border-radius: 10px;
-        }
-    .select    .Familial{
-            
-        text-decoration: none; 
-        margin-right:20px;
-        border: 1px solid rgb(194, 203, 206);
-        border-radius: 10px;
-        }
-     .select  .Romantique  {
-        text-decoration: none;
-        margin-right: 220px;
-        border: 1px solid rgb(194, 203, 206);
-        border-radius: 10px;
-        } 
-    .select   .Animaux{ 
-        text-decoration: none; 
-        margin-left:0px;
-        border: 1px solid rgb(194, 203, 206);
-        border-radius: 10px;
-        } 
-    
-    
-    .select .svg-inline--fa{
-            font-size: 20px;
-            color: #0065FC;
-            background-color: rgb(170, 179, 252);
-            padding-left:5px;
-            padding-bottom: 5px;
-            padding-top: 5px;
-            padding-right: 5px;
-            border-radius: 200px;
-        }
 
-        section {margin-top: 15px;
+.map    {   
+        color: black;
+        background-color:  #F2F2F2;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:10px;
+        height:40px; 
+        width: 40px;
         }
-      
-/*----les plus populaires*/
-        .svg-inline--fa.fa-chart-line{margin-left: 0px;
-        }
-        .pop {color:black;
-                font-weight: bold;
-                font-size: 20px;
-        }
- 
-nav     {display: flex;}
-       
-        .popu{  display: flex; }
-        .bo{ font-weight: bold;color: black;
-        }
-        .it{color: black;}
-        .star{margin-top: 30px;
-        }
-        .stara{margin-top: 10px;
-        }
-      
-        .starb{margin-top: 20px;
-        }
-        .hpop1{   width:120px;
-                height:110px;
-                margin-top: 0px;
-                margin-bottom:10px;  
-                margin-right: px;
-        }
-
-        .apop2{  
-                width: 120px;
-                height: 100px;
-                margin-bottom: 10PX; 
-
-
-        }
-        .hpop3{  
-                width: 120px;
-                height:100px;
-                 margin: top 0px;;
-                 margin-bottom:10px ;
-                 margin-right: px;
-        }
-        
-        li{list-style-type: none;}
-       
-
- /*hébergement--------------------------*/
- 
-        .heb{font-weight:bolder;
-                color: black;
-                font-size: 25px;
-        }
-
-        .bannera{width: 360px;
-                height: 120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        
-        .bannerb{width: 360px;
-                height: 120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        
-        .bannerc{width: 360px;
-                height: 120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        .bannerd{width: 360px;
-                height: 120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        .bannere{width: 360px;
-                height: 120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        } .bannerf{width: 360px;
-                height: 120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        .Act{font-weight:bolder;
-                        color: black;
-                        font-size: 25px;
-        }
-        .Afficher{
-                color: black;
-                text-decoration: none;
-                font-weight:bolder}
-     /*activités à Marseille*/          
-        .vieuxport{
-                
-                width: 360PX;
-                height:120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-               
+.tabindex { 
+        margin-right: 5;
+        height:35px;
+        width: 230px;
+        font-family: Raleway, sans-serif; 
+         margin-top: 15px;
+        font-size: 17px;
+        font-weight: bold;
          }
-        .Fort{
-                width: 360PX;
-                height:120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        .frioul{
-                width: 360PX;
-                height:120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        .parc{
+        /*filtres----*/
 
-                width: 360PX;
-                height:120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        .garde{
-
-
-                width: 360PX;
-                height:120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        .parc{
-
-                width: 360PX;
-                height:120px;
-                object-fit: cover;
-                margin: 0px;
-                display: flex;
-                align-items: flex-start;
-                justify-content: flex-start;
-        }
-        .VP{color: black;text-decoration: none;font-weight:bolder}
-/*--------------Footer--------*/
-        .propos{
-                color: black;
-                font-weight:bolder;
-              
-        }
-        .assistance{
-                color: black;
-                font-weight:bolder;
-                margin-top: 15px;
-              
-        }
-        .Hebergements{
-                color: black;
-                font-weight:bolder;
-                margin-top: 15px;
-                text-decoration: none;
-        }
-        .vente{ color: black;
-                text-decoration: none;
-                margin-top: 10px;
-        }
-        .site{
-                color: black;
-                text-decoration: none;
-                margin-top: 10px;
-        }
-        .donnees{
-                 color: black;
-                text-decoration: none;
-                margin-top: 15px;
-        }
-        .qualite{
-                color: black;
-                text-decoration: none;
-                margin-top: 10px;
-        }
-        .hote{
-                color: black;
-                text-decoration: none;
-                margin-top: 10px;
-        }
-
-        .aide{
-                color: black;
-                text-decoration: none;
-                margin-top: 10px;
-        }
+h2      {
+        padding-left: 10px;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 10px;
+}
+nav.filtres{
         
-        .contacter{color: black;
-                text-decoration: none;
-                margin-top: 10px;
-        }
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:flex-start;
+        align-items: center;
+}
+button.money{      
+        color: #0065FC;
+        font-weight: bold;
+        background-color:#dce2fa ;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height:35px; 
+        width: 35px;
+        border-inline-color: white;
+        border-bottom:  white;
+        border-top:white; 
+        border-right: white;
+        margin-bottom:0px;
+}
+button.child{
+        color: #0065FC;
+        font-weight: bold;
+        background-color:#dce2fa ;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height:35px; 
+        width: 35px;
+        border-inline-color: white;
+        border-bottom:  white;
+        border-top:white; 
+        border-right: white;
+        margin-bottom:0px;
+}
+button.heart{       
+        color: #0065FC;
+        font-weight: bold;
+        background-color:#dce2fa ;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height:35px; 
+        width: 35px;
+        border-inline-color: white;
+        border-bottom:  white;
+        border-top:white; 
+        border-right: white;
+        margin-bottom:0px;
+}
+button.dog{      
+        color: #0065FC;
+        font-weight: bold;
+        background-color:#dce2fa ;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        height:40px; 
+        width: 40px;
+        border-inline-color: white;
+        border-bottom:  white;
+        border-top:white; 
+        border-right: white;
+}  
+a.economique{       
+        text-decoration: none;
+        font-weight: bold;
+        color:black;
+        background-color: white;
+        font-size:15px;
+        margin-left: 0px;
+        margin-right: 60px;
+        border: 0.5px solid  #0065FC;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+}
+a.familial{
+        text-decoration: none;
+        margin-right:30px;
+        color:black;
+        font-weight: bold;
+        font-size:15px;
+        background-color: white;
+        margin-left: 20px;
+        border: 0.5px solid  #0065FC;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+}
+a.romantique{
+        text-decoration: none;
+        margin-right:80px;
+        margin-top: 10px;
+        color:black;
+        font-weight: bold;
+        font-size:15px; background-color: white;
+        margin-left: 0px;
+        margin-right:210px;
+        border: 0.5px solid  #0065FC;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+}          
+a.animaux{       
+        text-decoration: none;
+        margin-top: 10px;
+        color:black;
+        font-weight: bold;
+        font-size:15px;
+        background-color: white;
+        margin-left: 0px;
+        border: 0.5px solid  #0065FC;
+        border-top-right-radius: 45px;
+        border-bottom-right-radius: 45px;
+        border-top-left-radius: 45px;
+        border-bottom-left-radius: 45px;
+        margin-bottom: 20px;
+}
+.fa-info-circle{
+        padding-right: 5px;
+        padding-left: 5px;
+        background-color: white;
+        color: #0065FC;
+}  
+.icon{
+     
+        font-size: 16px;
+        color:black;
+        padding-left: 5px;
+}
+/*-présentation des différents type de logements*/
 
-        /*-------proprietés css-------*/
+section.populaire{
+        background-color: #e1ecec;
+        padding-left: 0px;
+}
+.afficher{color:black;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left:15px;
+}
+h2.select {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left:20px;
+        margin-bottom:0px;
+        margin-top:10px
+}
+h3      {
+        font-weight: bold;
+        margin-left: px;
+        font-size: 10px;
+}
+.sunhotel{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:nowrap;
+        align-items: flex-start;
+        align-items: center;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border: 2px solid  white;
+        background-color: white;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+}
+img.room    {
+        width:120px;
+        height:120px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        object-fit: cover;
+}
+.waterhotel{
+        display: flex;
+       flex-direction: row;
+       flex-wrap:nowrap;
+       align-items: flex-start;
+       align-items: center;
+       text-decoration: none;
+       font-weight: bold;
+       color: black;
+       border: 2px solid  white;
+        background-color: white;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+}
+img.water   {
+     
+        width:120px;
+        height:120px;
+        margin-top: 0px;
+        margin-bottom:0px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px; 
+        object-fit: cover; 
+}
+.bluehotel{
+        display: flex;
+       flex-direction: row;
+       flex-wrap:nowrap;
+       align-items: flex-start;
+        text-decoration: none;
+       font-weight: bold;
+       color: black;
+       border: 2px solid  white;
+       background-color: white;
+       border-top-right-radius: 15px;
+       border-bottom-right-radius: 15px;
+       border-top-left-radius: 15px;
+       border-bottom-left-radius: 15px;
+        margin-bottom:0px;
+        margin-left: 15px;
+        margin-right: 15px;
+} 
+img.blue  {
+     
+        width: 128px;
+        height:120px;
+        margin-top: 0px;
+        margin-bottom:10px;  
+       border-top-left-radius: 15px;
+       border-bottom-left-radius: 15px;
+       object-fit: cover;
+}
 
-
- @media screen and (min-width: 600px){
-
-        /*ici , le css s'appliquera aux écrans de 600px minimum*/
-        header{
-       display: flex;  }
+/*----------Hébergement--------------------------------------*/
+h2.hebergement{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-RIGHT: 0px;
+}
+section.logements{
+        display: flex; 
+        flex-direction: row;      
+        flex-wrap: wrap;
+        align-items: center;
+       background-color: #e1ecec;
+}
+figure  {
+        margin-left:10px
+}
+.name{font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 8px;
+      
+}
+.price{
+        font-size: 12px;
+        margin-top: 0px;
        
-        .bu{margin-top:  30px;
-              
+}
+
+.level{
+        color:#0065FC;
+        margin-bottom: 0px;
+        margin-top: 10px;
+       
+}
+.cannebierehotel{  
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top:5px;
+}
+img.cannebiere{
+        width: 350px;
+        height:60px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        object-fit: cover;
+}
+.porthotel{
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top:5px;
+}
+img.port{   
+        width: 350px;
+        height:60px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        object-fit: cover;
+}
+
+img.seagulls{
+        width: 350px;
+        height:60px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        object-fit: cover;
+}
+.seagullshotel{
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top:5px;
+}
+img.ocean{
+        width: 350px;
+        height:60px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        object-fit: cover;
+}
+.oceanhotel{
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top:5px;
+}
+img.basket{
+        width: 350px;
+        height:60px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        object-fit: cover;
+}
+.basketauberge{
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top:5px;
+}
+img.Amina{
+        width: 350px;
+        height:60px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        object-fit: cover;
+}
+.Aminahotel{
+        margin-right: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 10px;
+        margin-top:5px;
+}
+
+h2.activities{
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-RIGHT: 0px;
+}
+section.activities{
+        display: flex; 
+        flex-direction: row;      
+        flex-wrap: wrap;
+        align-items: center;
+        margin-right: 20px;
+        margin-left:15px;
+}
+.oldharbour{
+        text-decoration: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top:5px;
+        font-weight: bold;
+        color: black;}
+img.harbour{
+        width: 350px;
+        height:90px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        object-fit: cover;
+}
+.pomeguesfort{
+        text-decoration: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top:5px;
+        font-weight: bold;
+        color: black;}
+img.fort{
+        width: 350px;
+        height:90px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        width: 350px;
+        object-fit: cover;
+}
+.frioulisland{
+        text-decoration: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom: 5px;
+        margin-top:5px;
+        font-weight: bold;
+        color: black;}
+img.island{
+        width: 350px;
+        height:90px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        width: 350px;
+        object-fit: cover;
+}
+.calanquespark{
+        text-decoration: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom:5px;
+        margin-top:5px;
+        font-weight: bold;
+        color: black;}
+img.park {
+        width: 350px;
+        height:90px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        width: 350px;
+        object-fit: cover;
+}
+.church{
+        text-decoration: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom:5px;
+        margin-top:5px;
+        font-weight: bold;
+        color: black;}
+img.gardechurch {
+        width: 350px;
+        height:90px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        width: 350px;
+        object-fit: cover;
+}
+.longchamppark{
+        text-decoration: none;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border: 2px solid  white;
+        background-color: white;
+        margin-bottom:5px;
+        margin-top:5px;
+        font-weight: bold;
+        color: black;}
+img.longchamp{
+        width: 350px;
+        height:90px;
+        margin-top: 0px;
+        margin-bottom:0px; 
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        width: 350px;
+        object-fit: cover;
+}
+.presentationfooter{
+        background-color: #e1ecec;
+}
+legend{
+        color: black;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 10px;
+}
+label{
+        color: black;
+        padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+       
         
-        }
 
-        .logo{height: 30px;margin-top: 30px;
-
-        }
-        .heb{margin-top: 5px;
-        }
-
-        .Acti{margin-top:5px;
-
-        }
-      
-
-
-
-
-
-
-
-
-
-
- 
-
-        
-               
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-                
-               
-        
-
-
-
-
-
-
-
-
-
-
-        
-      
+       
