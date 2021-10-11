@@ -1,16 +1,28 @@
+head{
+        padding: 0px;
+        margin: 0px;
+}
+
 body    {   
         font-family: Raleway, sans-serif;
-        color: #0065FC;
-        margin: 0px;
+        color:black;
+        line-height:20px
 }  
- /*header*/
- header { 
+main    { 
+        width: 375px;
+        margin-top: 2rem;
+        margin-left:auto;
+        margin-right: auto;
+        margin-bottom: 2rem;
         display: flex;
-        justify-content:space-between;
-        align-items: center;
         flex-wrap: wrap;
-        margin-bottom: 20px;
+       align-items: center;
+       gap: 2rem;
+       box-sizing: border-box;
+       
 }
+ /*header
+
 nav    {
         display: flex;
 }
@@ -43,7 +55,9 @@ nav    {
         margin-right: 50px;
         margin-top:20px
 }
-/*partie main*/     
+/*partie main  
+
+
 p.information     {
         font-size: 20px;
         color: black;
@@ -92,7 +106,7 @@ form    {
         font-size: 17px;
         font-weight: bold;
 }
-        /*filtres----*/
+        /*filtres----
 a.icon  {   
         padding-left: 10px;
         font-size: 18px;
@@ -248,7 +262,7 @@ a.animaux{
         color:black;
         padding-left: 5px;
 }
-/*-présentation des différents type de logements*/
+/*-présentation des différents type de logements
 .blocpopulaire{
         border:1px solid  #e1ecec;
         max-width: 375px;
@@ -362,7 +376,7 @@ img.blue  {
         border-bottom-left-radius: 15px;
         object-fit: cover;
 }
-/*----------Hébergement--------------------------------------*/
+/*----------Hébergement-------------------------------------
 .blochebergement{
         border:1px solid  #e1ecec;
         max-width: 375px;
@@ -547,7 +561,7 @@ img.Amina{
         margin-bottom: 10px;
         margin-top:5px;
 }
-/*----activités---*/
+/*----activités---
 .blocactivities{
         border:1px solid  #e1ecec;
         max-width: 375px;
