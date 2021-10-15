@@ -20,7 +20,6 @@ img.logo {
         margin-left: 10px;
 }
 button.register{
-     
         color:#0065FC ;
         background-color: white;
         font-weight: bold; 
@@ -29,8 +28,8 @@ button.register{
         border-width:0px;
         }
 nav.anchor{
-font-size: 0.75rem;   
- margin-left: 10px;
+        font-size: 0.75rem;   
+        margin-left: 10px;
         }
 .anchorhebergement{
         text-decoration:none;
@@ -149,7 +148,7 @@ section.items-items-y{
         margin-left:10px;        
 }
 a.imgcontent{display: flex ;
-       
+        text-decoration: none;
         border: 1px solid white;
         border-radius: 20px;
 }
@@ -172,9 +171,15 @@ div.content{
         border-top-right-radius: 20px;
         border-bottom-right-radius:20px;
         padding-left: 10px;
+        row-gap: 3rem;
 }
-p{font-size: 0.5rem;}
-
+p{      font-size: 0.5rem;
+        text-decoration: none;
+}
+h3{text-decoration: none;
+}
+div.raiting{text-decoration: none;
+        }
 
 
 
