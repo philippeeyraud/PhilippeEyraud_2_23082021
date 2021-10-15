@@ -125,7 +125,6 @@ section.popular{display: flex;
         background-color: lightgray;
         row-gap: 0.75rem;
         }
-
 div.categoriespopular{display: flex;
         align-items: center;
         align-items: baseline;
@@ -145,38 +144,14 @@ div.title{
         align-items: center;
         margin: 10px;
 }
-section.items1-items-y{
+section.items-items-y{
         display: flex;
         margin-left:10px;        
 }
-section.items2-items-y{
-        display: flex;
-        margin-left:10px;
-}
-section.items3-items-y{
-        display: flex;
-        margin-left:10px;
-}
-a.imgcontent1{display: flex ;
+a.imgcontent{display: flex ;
        
         border: 1px solid white;
         border-radius: 20px;
-      
-      
-}
-a.imgcontent2{display: flex ;
-        
-        border: 1px solid white;
-        border-radius: 20px;
-       
-        
-}
-a.imgcontent3{display: flex ;
-      
-        border: 1px solid white;
-        border-radius: 20px;
-        
-      
 }
 div.img{width: 110px;
         height: 80px;
@@ -188,28 +163,8 @@ img.popular{
         border-bottom-left-radius:20px;
       
 }
-div.content1{
+div.content{
         width: 120px;
-        height: 80px;
-        font-size: 0.5rem;
-        line-height: 12px;
-        background-color: white;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius:20px;
-        padding-left: 10px;
-}
-div.content2{
-        width: 120px;
-        height: 80px;
-        font-size: 0.5rem;
-        line-height: 12px;
-        background-color: white;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius:20px;
-        padding-left: 10px;
-}
-
-div.content3{ width: 120px;
         height: 80px;
         font-size: 0.5rem;
         line-height: 12px;
@@ -951,5 +906,3 @@ h2      {
 
        
         
-
-       
