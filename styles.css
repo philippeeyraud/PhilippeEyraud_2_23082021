@@ -34,7 +34,7 @@ nav.anchor{
 .anchorhebergement{
         text-decoration:none;
         color: #0065FC;
-        margin-right: 2rem;
+        margin-right: 4.5rem;
         margin-left: 10px;
         }
 .anchoractivities{
@@ -55,7 +55,7 @@ main    {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        gap: 1.5rem;
+        gap: 1rem;
         box-sizing: border-box;
         font-size: 0.75rem;
 }
@@ -119,17 +119,22 @@ button{ color: #0065FC;
 }
 
 /*-------------les plus populaires-------*/ 
-section.popular{display: flex;
+section.popular{
+        display: flex;
         flex-direction: column;
-        background-color: lightgray;
+        background-color: lightgrey;
         row-gap: 0.75rem;
+        width: 100%;
+       
         }
-div.categoriespopular{display: flex;
+div.categoriespopular{
+        display: flex;
         align-items: center;
         align-items: baseline;
         justify-content: flex-start;
         border: 1px solid white;
         background-color: white;
+       
 }
 .fa-info-circle{
         background-color: #0065FC;
@@ -145,7 +150,9 @@ div.title{
 }
 section.items-items-y{
         display: flex;
-        margin-left:10px;        
+       
+        margin-left:10px; 
+        padding-bottom: 20px;       
 }
 a.imgcontent{display: flex ;
         text-decoration: none;
@@ -155,7 +162,7 @@ a.imgcontent{display: flex ;
 div.img{width: 110px;
         height: 80px;
 }
-img.popular{
+img.view{
         width: 110px;
         height: 80px;
         border-top-left-radius: 20px;
@@ -163,7 +170,7 @@ img.popular{
       
 }
 div.content{
-        width: 120px;
+        width: 145px;
         height: 80px;
         font-size: 0.5rem;
         line-height: 12px;
@@ -171,349 +178,68 @@ div.content{
         border-top-right-radius: 20px;
         border-bottom-right-radius:20px;
         padding-left: 10px;
-        row-gap: 3rem;
+        row-gap: 3rem;color: black;
+       
 }
 p{      font-size: 0.5rem;
         text-decoration: none;
+    
 }
 h3{text-decoration: none;
 }
-div.raiting{text-decoration: none;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*partie main  
-
-
-p.information     {
-        font-size: 20px;
-        color: black;
-        font-weight: bold;
-        padding-left: 10px;
-}
-p.complement {
-        font-size: 15px;
-        color: black;
-        padding-left: 10px
-}    
-form    {
+div.raiting{text-decoration: none;color:#0065FC;
+        
+   }
+/* /*-----------partie---Hébergement----*/
+section.logging{
         display: flex;
-        align-items: flex-end;
-}
-.search {
-        color:  white;
-        font-weight: bold;
-        background-color:#0065FC ;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-top-left-radius: 10px;
-        border-bottom-left-radius: 10px;
-        height:40px; 
-        width: 40px;
-        border-inline-color: white;
-        border-bottom:  white;
-        border-top:white; 
-        border-right: white;
-}
-.map    {   
-        color: black;
-        background-color:  #F2F2F2;
-        border-top-left-radius:10px;
-        border-bottom-left-radius:10px;
-        height:40px; 
-        width: 40px;
+        width: 270px;
         margin-left: 10px;
+        flex-direction: column;
+        row-gap: 0.5rem;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        background-color: rgb(238, 236, 236);
 }
-.tabindex { 
-        margin-right: 5px;
-        height:35px;
-        width: 230px;
-        font-family: Raleway, sans-serif; 
-         margin-top: 15px;
-        font-size: 17px;
-        font-weight: bold;
-}
-        /*filtres----
-a.icon  {   
-        padding-left: 10px;
-        font-size: 18px;
-        margin-bottom: 10px;
-        font-size: 13px;
-}
-p       {
-        width:100%
-}
-.filtre {
-        margin-bottom: 5px;
-        font-weight: bold;
-        font-size: 15px;
-        margin-top: 5px;
-}
-div.choices{
-        display: flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content:flex-start;
-        align-items: center;
-        padding-left: 10px;
-}
-button.money{      
-        color: #0065FC;
-        font-weight: bold;
-        background-color:#dce2fa ;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        height:35px; 
-        width: 35px;
-        border-inline-color: white;
-        border-bottom:  white;
-        border-top:white; 
-        border-right: white;
-        margin-bottom:0px;
-}
-button.child{
-        color: #0065FC;
-        font-weight: bold;
-        background-color:#dce2fa ;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        height:35px; 
-        width: 35px;
-        border-inline-color: white;
-        border-bottom:  white;
-        border-top:white; 
-        border-right: white;
-        margin-bottom:0px;
-}
-button.heart{       
-        color: #0065FC;
-        font-weight: bold;
-        background-color:#dce2fa ;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        height:35px; 
-        width: 35px;
-        border-inline-color: white;
-        border-bottom:  white;
-        border-top:white; 
-        border-right: white;
-        margin-bottom:0px;
-}
-button.dog{      
-        color: #0065FC;
-        font-weight: bold;
-        background-color:#dce2fa ;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        height:40px; 
-        width: 40px;
-        border-inline-color: white;
-        border-bottom:  white;
-        border-top:white; 
-        border-right: white;
-}  
-a.economique{       
+  
+a.imgrender{
+        display: flex ;
         text-decoration: none;
-        font-weight: bold;
-        color:black;
-        background-color: white;
-        font-size:15px;
-        margin-left: 0px;
-        margin-right: 60px;
-        border: 0.5px solid  #0065FC;
-        border-top-right-radius: 45px;
-        border-bottom-right-radius: 45px;
-        border-top-left-radius: 45px;
-        border-bottom-left-radius: 45px;
-}
-a.familial{
-        text-decoration: none;
-        margin-right:30px;
-        color:black;
-        font-weight: bold;
-        font-size:15px;
-        background-color: white;
-        margin-left: 20px;
-        border: 0.5px solid  #0065FC;
-        border-top-right-radius: 45px;
-        border-bottom-right-radius: 45px;
-        border-top-left-radius: 45px;
-        border-bottom-left-radius: 45px;
-}
-a.romantique{
-        text-decoration: none;
-        margin-right:80px;
-        margin-top: 10px;
-        color:black;
-        font-weight: bold;
-        font-size:15px; background-color: white;
-        margin-left: 0px;
-        margin-right:210px;
-        border: 0.5px solid  #0065FC;
-        border-top-right-radius: 45px;
-        border-bottom-right-radius: 45px;
-        border-top-left-radius: 45px;
-        border-bottom-left-radius: 45px;
-}          
-a.animaux{       
-        text-decoration: none;
-        margin-top: 10px;
-        color:black;
-        font-weight: bold;
-        font-size:15px;
-        background-color: white;
-        margin-left: 0px;
-        border: 0.5px solid  #0065FC;
-        border-top-right-radius: 45px;
-        border-bottom-right-radius: 45px;
-        border-top-left-radius: 45px;
-        border-bottom-left-radius: 45px;
-        margin-bottom: 20px;
-}
-.fa-info-circle{
-        padding-right: 5px;
-        padding-left: 5px;
-        background-color: white;
-        color: #0065FC;
-}  
-.icon{
-        font-size: 16px;
-        color:black;
-        padding-left: 5px;
-}
-/*-présentation des différents type de logements
-.blocpopulaire{
-        border:1px solid  #e1ecec;
-        max-width: 375px;
-        max-height:667px ;
-
-}
-section.populaire{
-        background-color: #e1ecec;
-        padding-left: 0px;
-        max-width: 375px;
-        }
-
-a.afficher{
-        color:black;
-        text-decoration: none;
-        font-weight: bold;
-        margin-left:15px;
-}
-p.select {
-        color: black;
-        font-weight: bold;
-        font-size: 18px;
-        margin-left:20px;
-        margin-bottom:10px;
-        margin-top:10px;
-}
-.fa-chart-line{
-        margin-left:100px;
-}
-.sunhotel{
-        display: flex;
-        flex-direction: row;
-        flex-wrap:nowrap;
-        align-items: flex-start;
-        align-items: center;
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-        border: 2px solid  white;
-        background-color: white;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        margin-bottom: 10px;
-        margin-left: 15px;
-        margin-right: 15px;
-}
-img.room    {
-        width:80px;
-        height:80px;
-        margin-top: 0px;
-        margin-bottom:0px; 
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
+        flex-direction: column;
         object-fit: cover;
+        border: 2px solid white;
+        border-radius: 20px; 
 }
-.waterhotel{
-        display: flex;
-        flex-direction: row;
-        flex-wrap:nowrap;
-        align-items: flex-start;
-        align-items: center;
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-        border: 2px solid  white;
-        background-color: white;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        margin-bottom: 10px;
-        margin-left: 15px;
-        margin-right: 15px;
-}
-img.water   {
-     
-        width:80px;
-        height:80px;
-        margin-top: 0px;
-        margin-bottom:0px;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px; 
-        object-fit: cover; 
-}
-.bluehotel{
-        display: flex;
-        flex-direction: row;
-        flex-wrap:nowrap;
-        align-items: flex-start;
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-        border: 2px solid  white;
-        background-color: white;
-        border-top-right-radius: 15px;
-        border-bottom-right-radius: 15px;
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        margin-bottom:0px;
-        margin-left: 15px;
-        margin-right: 15px;
-} 
-img.blue  {
-        width:80px;
-        height:80px;
-        margin-top: 0px;
-        margin-bottom:10px;  
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
+
+a.imgrender img.view{
+        height: 80px;
+        width: 265px;
         object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
 }
+a.imgrender div.content{
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
+        height: 65px;
+        width: 265px;
+}
+
+      
+
+
+
+
+
+
+
+ 
+
+
+
+
+
 /*----------Hébergement-------------------------------------
 .blochebergement{
         border:1px solid  #e1ecec;
