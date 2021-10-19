@@ -230,6 +230,7 @@ section.activities{
         row-gap: 0.5rem;
         column-gap: 0rem;
         width: 100%;
+        padding-bottom: 5px;
 }
 a.imgcontain{
         display: flex ;
@@ -250,13 +251,21 @@ a.imgcontain img.view{
 a.imgcontain div.content{
         border-bottom-left-radius: 20px;
         border-top-right-radius: 0px;
-        height: 60px;
+        height: 30px;
         width: 255px;
         padding-left: 10px;
 }
-footer{background-color: lightgrey;}
-
-
+/*----------partie-footer----*/
+footer{
+        background-color: lightgrey;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        
+}
+a.chart{text-decoration: none;}
 
  
 
