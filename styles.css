@@ -1,14 +1,14 @@
+*{box-sizing: border-box;}
 head{
         padding: 0px;
         margin: 0px;
-        }
+        }     
 body {   
         font-family: Raleway, sans-serif;
         color:black;
         line-height:20px;
         margin:0px;
-        font-size: 16px;
-        }  
+       }  
 header  {display:flex;
         align-items:center;
         column-gap: 6.5rem;
@@ -31,26 +31,28 @@ button.register{
 nav.anchor{
         font-size: 0.75rem;   
         margin-left: 10px;
+       width: 375px;
         }
 .anchorhebergement{
         text-decoration:none;
         color: #0065FC;
-        margin-right: 4.5rem;
+        margin-right: 5rem;
         margin-left: 10px;
-        }
+}
 .anchoractivities{
         text-decoration: none;
-        color:black;
+        color:black;    position: relative;
+        left: 200px;
+        bottom: 32px;
         }
-hr      {width: 40%;
+hr      {width: 30%;
         border-color:#0065FC ;
-        margin-inline-start: 5px;
-        margin-left: 0px;
-        margin-top: 0px;}
+        margin-inline-start: 0px;
+       }
 /*-------------partie main-------*/
 main    { 
         width: 375px;
-        margin: left 10px;;
+        margin-left: 10px;
         margin-right: auto;
         margin-bottom: 2rem;
         display: flex;
@@ -64,8 +66,10 @@ section.tools{
         flex-wrap: wrap;
         margin-left: 10px;
 }
-h1      {font-size: 1rem;
+section.tools h1{font-size:1rem;
+max-width: 70%;
 }
+
 p{      font-size: 0.75rem;
 }
 button.icon{
@@ -74,6 +78,7 @@ button.icon{
         border-width: 0px;
         height: 1.75rem;
         padding-right: 0px;
+        color: black;
 }
 .index{ 
         border-width: 0px;
@@ -133,7 +138,7 @@ div.categoriespopular{
         align-items: center;
         align-items: baseline;
         justify-content: flex-start;
-        border: 3px solid white;
+        border: 1px solid white;
         background-color: white;
 }
 .fa-info-circle{
@@ -142,21 +147,9 @@ div.categoriespopular{
         border-radius: 5px;
         margin-left: 10px;
 }
-div.title{
-        display: flex;
-        column-gap: 6rem;
-        align-items: center;
-        margin: 10px;
-}
-section.items-items-y{
-        display: flex;
-       
-        margin-left:10px; 
-        padding-bottom: 20px;       
-}
 a.imgcontent{display: flex ;
         text-decoration: none;
-        border: 1px solid white;
+        border: 3px solid white;
         border-radius: 20px;
 }
 div.img{width: 110px;
@@ -179,6 +172,18 @@ div.content{
         padding-left: 10px;
         row-gap: 3rem;color: black;
 }
+div.title{
+        display: flex;
+        column-gap: 6rem;
+        align-items: center;
+        margin: 10px;
+}
+section.items-items-y{
+        display: flex;
+       padding: 5px;
+        margin-left:5px; 
+        padding-bottom: 20px;      
+}
 p{      font-size: 0.5rem;
         text-decoration: none;
 }
@@ -195,7 +200,7 @@ section.logging{
         flex-direction: column;
         row-gap: 0.5rem;
         justify-content: flex-start;
-        background-color: #f3f2f2
+        background-color: #f3f7fa
 }
 a.imgrender{
         display: flex ;
@@ -221,7 +226,7 @@ a.imgrender div.content{
         width: 265px;
         padding-left: 10px;
 }
-h1#hebergements{margin: 10px;}
+
 
 /*-----------partie---Activités----*/      
 section.activities{
@@ -240,7 +245,6 @@ a.imgcontain{
         flex-direction: column;
         object-fit: cover;
         border-radius: 20px;
-       
 }
 a.imgcontain img.view{
         height: 75px;
@@ -264,21 +268,34 @@ footer{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-     
         position: relative;
         color: black;
 }
 footer section{ 
        margin-bottom: 20px;
        margin-left: 20px;
-      
 }
 a.chart{ 
         color: black;
         text-decoration: none;
 }
-
+footer div.title{margin: 0px;
+font-size: 0.75rem;}
        
+
+
+
+@media screen and (min-width:992px) {
+       .register{ position:relative;
+        left:470px ;}
+      
+       }
+        
+        
+
+
+
+
 
 
  
