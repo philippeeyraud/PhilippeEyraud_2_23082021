@@ -7,6 +7,7 @@ body {
         color:black;
         line-height:20px;
         margin:0px;
+        font-size: 16px;
         }  
 header  {display:flex;
         align-items:center;
@@ -49,13 +50,12 @@ hr      {width: 40%;
 /*-------------partie main-------*/
 main    { 
         width: 375px;
-        margin-left:auto;
+        margin: left 10px;;
         margin-right: auto;
         margin-bottom: 2rem;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-     
         box-sizing: border-box;
         font-size: 0.75rem;
 }
@@ -195,7 +195,7 @@ section.logging{
         flex-direction: column;
         row-gap: 0.5rem;
         justify-content: flex-start;
-        background-color: white
+        background-color: #f3f2f2
 }
 a.imgrender{
         display: flex ;
@@ -221,6 +221,8 @@ a.imgrender div.content{
         width: 265px;
         padding-left: 10px;
 }
+h1#hebergements{margin: 10px;}
+
 /*-----------partie---Activités----*/      
 section.activities{
         display: flex;
