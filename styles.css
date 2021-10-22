@@ -357,17 +357,14 @@ section.items-items-y{
         left:320px;
 }
 /*-----------------section-HEBERGEMENT______*/
-section.logging{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-}
-
 h1#hebergements{
         height: 15px;
         position: relative;
         bottom: 420px;
 }
+section.logging{display: flex;}
+}
+
 
 
 
