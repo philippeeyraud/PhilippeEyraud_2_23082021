@@ -73,16 +73,16 @@ section.tools h1{
 p{      font-size: 0.75rem;
 }
 button.icon{
-        border-top-left-radius:10px;
-        border-bottom-left-radius:10px;
+        border-top-left-radius:15px;
+        border-bottom-left-radius:15px;
         border-width: 0px;
         height: 1.75rem;
         padding-right: 0px;
         color: black;
 }
-.index{ 
+.index{ height:25px;
         border-width: 0px;
-        font-weight: 600;
+        font-weight: 500;
 }      
 button.map{
         background-color: #0065FC;
@@ -134,7 +134,8 @@ section.popular{
         flex-direction: column;
         background-color: #f2f2f2;
         row-gap: 0.5rem;
-        width: 100%;
+        max-width: 375px;
+
         }
 .fa-info-circle{
         background-color: #0065FC;
@@ -192,6 +193,7 @@ section.popular section.items-items-y{
         padding-bottom: 20px;      
 }
 div.raiting{
+        margin-top: 10px;
         color:#0065FC;
         position: relative;
         top: 5px;
@@ -286,17 +288,21 @@ footer div.title{margin: 0px;
 }
 /*--------------------------partie-responsive-------*/        
 @media screen and (min-width:768px) {
+        main{
+                row-gap: 0px;
+        }
 .register{position:relative;
-        left: 320px ;}
+        left: 310px ;}
 a.anchorhebergement{
         margin: 0px;
         position: relative;
-        left:100px;
+        left:95px;
+        top: 3px;
 }
 nav.anchor{
         position: relative;
         top: 16px;
-        right: 120px;
+        right: 130px;
         width: 0px;
 }
 hr{     position: relative;
@@ -309,6 +315,7 @@ section.tools{
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-bottom: 10px;
 }
 div p{
         position: relative;
@@ -324,49 +331,147 @@ button.map::after{
         display: block;
         text-align: center;
         position: relative;
-        bottom: 10px;
+        bottom: 7px;
 }
 section.filtre{
         display:flex;
-        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        mawx-width :768px;
+       
+   
 }
 section.items{
         margin-right: 0px;
         position:relative;
         left: 10px;
+        column-gap: 8px;
+        top: 10PX;
+        row-gap: 0px;
+        
 }
-div.filtre{margin: left 10px;
-        margin-right: 10px;
-}
-/*-----------------section-popular______*/
-div.title{
+
+div.filtre{
         position: relative;
-        left: 320px;
+        bottom: 10px;
+      
 }
-div.info p{
+.info div p{
         max-width:100%;
-      bottom: 5px;
+        position: relative;
+        right:20px;
 }
+        
 .fa-info-circle{
         position: relative;
-        bottom:10px;
-}
-section.items-items-y{
-       width: 100px;
+        right:10px;
+      }
+
+
+/*-----------------section-popular------*/
+section.popular{
+      display: flex;
+      align-items:center;
         position: relative;
-        left:320px;
+        left: 360px;
+       border-radius: 15px;
+       width: 230px;
 }
-/*-----------------section-HEBERGEMENT______*/
+div.title{margin-right: 0px;
+        width: px;
+        margin-left: 35px;
+      width:230px;
+      font-size:10px;
+      column-gap: 0px;
+}
+div.title h1{width: 180px;
+
+}
+section.popular section.items-items-y{
+        position: relative;
+        width: 200px;
+        border-radius: 8px;
+}
+a.imgcontent{
+        width: 100%; 
+}
+div.img{
+        width:90%;
+}
+img.view{
+        width:100%;
+}
+div.raiting{
+     position: relative;
+     top: 0px;
+        color:#0065FC;
+}
+div.content{
+        width:70%;   
+        height: 85px;   
+        font-size: 65%;
+        line-height: 10px;         
+}   
+
+/*-----------------section-hebergement-------*/
+section.logging{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 340px;
+        position: relative;
+        right: 229px;
+        top:px;
+        bottom: 0px;
+        row-gap:10px;
+        background-color:#f2f2f2;
+        border-radius: 15px;
+        height: 421px;
+} 
+
 h1#hebergements{
         height: 15px;
         position: relative;
-        bottom: 420px;
+       top: 7px;
+        font-size: 15px;
+        
+    
 }
-section.logging{display: flex;}
+section.logging section.items-items-x
+                {width: 150px;
+        height: 110px;}
+a.imgrender{
+        width:150px;
+        height: 110px;
+        
+}
+a.imgrender img.view{
+      width: 100%;height: 55px;
+      border-radius: 8px;
+}
+a.imgrender div.content{
+        max-width: 100%;
+        padding-left: 0px;
+        width: 135px;
+         height: 50px;
+         font-size:65% ;
+         border-radius:8px;
+}
+a.imgrender div.img{
+        height: 45px;
+}
+a.imgrender div.content div.raiting{margin: 3px;
+}
+a.imgrender div.content h3{margin-bottom: 3px;
+}
+/*-----------------section-Activities_____
+section.activities{display: flex;
+position: relative;
+bottom: 400px;
 }
 
-
-
+}
 
 
 
@@ -395,4 +500,3 @@ section.logging{display: flex;}
 
 
        
-        
