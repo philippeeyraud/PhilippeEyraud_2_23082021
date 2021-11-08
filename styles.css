@@ -208,23 +208,38 @@ section.popular h3{
 section.popular div.price{
         margin-bottom: 10px;
 }
-div.raiting{ 
-        color: #0065FC;
-        position: relative;
-        top: 5px;
-        padding: 10px;
-}
-div.opaque{
-        color:grey;
-        position:relative;
-        left: 90px;
-        bottom: 21px;
-}
-div.opaquepop{color:grey;
-        position:relative;
-        left: 60px;
-        bottom: 15px;
-}
+ div.content div.raitingpopular[data-star="5"] svg:nth-child(1)
+{ color: #0065FC;padding: 0px 0px 0px 10px;   }
+div.content div.raitingpopular[data-star="5"] svg:nth-child(2)
+{ color: #0065FC;}
+div.content div.raitingpopular[data-star="5"] svg:nth-child(3)
+{ color: #0065FC;}
+div.content div.raitingpopular[data-star="5"] svg:nth-child(4)
+{ color: #0065FC;}
+div.content div.raitingpopular[data-star="5"] svg:nth-child(5)
+{ color: #0065FC;}
+div.content div.raiting[data-star="4"] svg:nth-child(1)
+{ color: #0065FC;padding: 15px 0px 0px 10px; }
+div.content div.raiting[data-star="4"] svg:nth-child(2)
+{ color: #0065FC;}
+div.content div.raiting[data-star="4"] svg:nth-child(3)
+{ color: #0065FC;}
+div.content div.raiting[data-star="4"] svg:nth-child(4)
+{ color: #0065FC;}
+div.content div.raiting[data-star="4"] svg:nth-child(5)
+{ color:lightgrey;}
+div.content div.raiting[data-star="3"] svg:nth-child(1)
+{ color: #0065FC;padding: 15px 0px 0px 10px; }
+div.content div.raiting[data-star="3"] svg:nth-child(2)
+{ color: #0065FC;}
+div.content div.raiting[data-star="3"] svg:nth-child(3)
+{ color: #0065FC;}
+div.content div.raiting[data-star="3"] svg:nth-child(4)
+{ color: lightgrey;}
+div.content div.raiting[data-star="3"] svg:nth-child(5)
+{ color:lightgrey;}
+
+
 /*-------------hébergements-------*/
 section.logging{
         display:flex;
@@ -277,22 +292,18 @@ a.imgrender div.content{
         justify-content:center;
         align-items: flex-start;
 }
-div.raitinglogg{ color: #0065FC;
-        position: relative;
-        top:10px;
-        left: 10px;   
-}
-div.opaquelogg{
-        color:grey;
-        position:relative;
-        left:88px;
-        bottom: 3.5px;
-}
-div.opaqueloggm{color:grey;
-        position:relative;
-        left: 70px;
-        bottom: 4px;
-}
+div.content div.raitinglogging[data-star="5"] svg:nth-child(1) 
+{ color: #0065FC;padding: 15px 0px 0px 10px;   }
+div.content div.raitinglogging[data-star="5"] svg:nth-child(2)
+{ color: #0065FC; }
+div.content div.raitinglogging[data-star="5"] svg:nth-child(3)
+{ color: #0065FC; }
+div.content div.raitinglogging[data-star="5"] svg:nth-child(4)
+{ color: #0065FC; }
+div.content div.raitinglogging[data-star="5"] svg:nth-child(5)
+{ color: #0065FC; }
+
+
 div.content h3{
         margin-left: 10px;
 }
