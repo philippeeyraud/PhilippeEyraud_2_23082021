@@ -269,7 +269,7 @@ section.logging section.items-items-y  {
         border-radius: 20px; 
 }
 a.imgrender div.img{
-        width:95%;
+        width:98%;
         align-items: center;
 }
 a.imgrender img.view{
@@ -291,6 +291,7 @@ a.imgrender div.content{
         flex-direction: column;
         justify-content:center;
         align-items: flex-start;
+        
 }
 div.content div.raitinglogging[data-star="5"] svg:nth-child(1) 
 { color: #0065FC;padding: 15px 0px 0px 10px;   }
