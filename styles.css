@@ -209,7 +209,7 @@ section.popular div.price{
         margin-bottom: 10px;
 }
  div.content div.raitingpopular[data-star="5"] svg:nth-child(1)
-{ color: #0065FC;padding: 0px 0px 0px 10px;   }
+{ color: #0065FC;padding: 15px 0px 0px 10px;  }
 div.content div.raitingpopular[data-star="5"] svg:nth-child(2)
 { color: #0065FC;}
 div.content div.raitingpopular[data-star="5"] svg:nth-child(3)
