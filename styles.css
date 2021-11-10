@@ -1,4 +1,4 @@
-body { 
+body { margin: 0px;
         font-size: 16px;
         font-family: Raleway, sans-serif;
         color:black;
@@ -67,7 +67,7 @@ section.tools h2{
 section.tools form{
         border:1px solid #deebff;  
         border-radius: 10px; 
-        width:328px;
+        width:323px;
 }
 button.map{
        border-radius: 10px; 
@@ -75,6 +75,7 @@ button.map{
         height: 35px;  
         background-color:#0065FC ;
         padding:0px;
+        margin-right: 0px;
 }
 .fa-search {
         color: white;
@@ -94,7 +95,7 @@ button.icon{
         border: none;
 }      
 /*-------------partie filtre-------*/     
-section.filtre{
+section.filter{
         margin-left: 10px;
         padding-bottom: 10px;
         padding-top: 10px;}
@@ -106,7 +107,7 @@ div.items{
         justify-content:space-between;
         row-gap:8px;
 }
-div.filtre{
+div.filter{
         border-top-right-radius: 20px;
         border-bottom-right-radius:20px;
         border-top-left-radius:20px;
@@ -125,7 +126,7 @@ button{ color: #0065FC;
         border-bottom:  #deebff;
         border-top:#deebff; 
         border-right: #deebff;
-        height: 35px;
+        height: 30px;
         width: 35px;
         margin-right: 5px;
 }
@@ -209,37 +210,50 @@ section.popular div.price{
         margin-bottom: 10px;
 }
  div.content div.raitingpopular[data-star="5"] svg:nth-child(1)
-{ color: #0065FC;padding: 15px 0px 0px 10px;  }
+{ color: #0065FC;padding: 15px 0px 0px 10px;  
+}
 div.content div.raitingpopular[data-star="5"] svg:nth-child(2)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raitingpopular[data-star="5"] svg:nth-child(3)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raitingpopular[data-star="5"] svg:nth-child(4)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raitingpopular[data-star="5"] svg:nth-child(5)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raiting[data-star="4"] svg:nth-child(1)
-{ color: #0065FC;padding: 15px 0px 0px 10px; }
+{ color: #0065FC;padding: 15px 0px 0px 10px; 
+}
 div.content div.raiting[data-star="4"] svg:nth-child(2)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raiting[data-star="4"] svg:nth-child(3)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raiting[data-star="4"] svg:nth-child(4)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raiting[data-star="4"] svg:nth-child(5)
-{ color:lightgrey;}
+{ color:lightgrey;
+}
 div.content div.raiting[data-star="3"] svg:nth-child(1)
-{ color: #0065FC;padding: 15px 0px 0px 10px; }
+{ color: #0065FC;padding: 15px 0px 0px 10px; 
+}
 div.content div.raiting[data-star="3"] svg:nth-child(2)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raiting[data-star="3"] svg:nth-child(3)
-{ color: #0065FC;}
+{ color: #0065FC;
+}
 div.content div.raiting[data-star="3"] svg:nth-child(4)
-{ color: lightgrey;}
+{ color: lightgrey;
+}
 div.content div.raiting[data-star="3"] svg:nth-child(5)
-{ color:lightgrey;}
-
-
+{ color:lightgrey;
+}
 /*-------------hébergements-------*/
 section.logging{
         display:flex;
@@ -274,7 +288,7 @@ a.imgrender div.img{
 }
 a.imgrender img.view{
         height:95px;
-        width:105%;
+        width:102%;
         object-fit: cover;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -284,27 +298,29 @@ a.imgrender div.content{
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         height: 75px;
-        width:100%;
+        width:98%;
         line-height: 1px;
         font-size: 14px;
         display: flex;
         flex-direction: column;
-        justify-content:center;
+        justify-content:flex-end;
         align-items: flex-start;
-        
 }
 div.content div.raitinglogging[data-star="5"] svg:nth-child(1) 
-{ color: #0065FC;padding: 15px 0px 0px 10px;   }
+{ color: #0065FC;padding: 15px 0px 0px 10px;   
+}
 div.content div.raitinglogging[data-star="5"] svg:nth-child(2)
-{ color: #0065FC; }
+{ color: #0065FC; 
+}
 div.content div.raitinglogging[data-star="5"] svg:nth-child(3)
-{ color: #0065FC; }
+{ color: #0065FC;
+ }
 div.content div.raitinglogging[data-star="5"] svg:nth-child(4)
-{ color: #0065FC; }
+{ color: #0065FC;
+ }
 div.content div.raitinglogging[data-star="5"] svg:nth-child(5)
-{ color: #0065FC; }
-
-
+{ color: #0065FC; 
+}
 div.content h3{
         margin-left: 10px;
 }
@@ -321,7 +337,7 @@ section.activities{
         padding-bottom: 20px;
         padding-left: 20px;
         column-gap: 0px;
-        padding-bottom: 5px;
+        padding-bottom: 40px;
         width: 100%;
 }
 section.activities section.items-items-y  {
@@ -392,7 +408,6 @@ header {
         margin: 0px;
         gap: 0px;
         height: 120px;
-      
 }
 img.logo {
         height:35px;
@@ -406,6 +421,7 @@ button.register{
         order:1;
         width:155px
 }
+button.map{width: 56px;}
 nav a.anchorhebergement{
         padding: 48px 0 48px 0;
         border-bottom: none;
@@ -431,7 +447,7 @@ form {
         margin-top: 20px;
         width:100%;
 }
-section.filtre{
+section.filter{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -441,16 +457,16 @@ section.filtre{
         padding-left: 20px;
 
 }
-section.filtre h3{
+section.filter h3{
         padding-left: 15px;
         margin-left: 0px;
         margin-right: 25px;
 }
-div.filtre{
+div.filter{
         margin-right: 5px;
         padding:0 10px 0 0px;
 }
-div.fitres#text {
+div.filter#text {
         width: 100px;
         font-size: 18px;
 }
@@ -549,6 +565,7 @@ h1#hebergements{
         align-items: centerbaseline;
         height:100px;
         line-height: 10px;
+        width: 100%;
 }
 section.logging h4{
         position: absolute;
@@ -593,6 +610,7 @@ button.register{
 nav.anchor{
         width:18%;
 }
+
 button.map{
         width: 120px;
         text-indent: -9999px;
@@ -601,6 +619,9 @@ button.map{
         border-bottom-left-radius: 0px;
         border-bottom-right-radius: 25px;
         border-top-right-radius: 25px;
+}
+button.icon{margin-right: 0px;
+padding-right: 20px;
 }
 button.map::after{
         content: "Rechercher";
@@ -612,11 +633,12 @@ button.map::after{
         color: white;
         width: 100px;
 }  
-section.tools{padding-left: 0px;} 
-section.filtre{
+section.tools{padding-left: 0px;
+} 
+section.filter{
         padding-left: 0px;
 }   
-div.filtre{
+div.filter{
         margin-right: 45px;
 }
 /*---populaire----*/
@@ -639,6 +661,9 @@ section.logging{
 section.logging section.items-items-y{
        width:26%;
 }
+section.logging div.content{
+        width: 102%;
+}  
 h1#hebergements{
        position:absolute;  
        top:450px;
